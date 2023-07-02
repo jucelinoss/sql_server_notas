@@ -53,5 +53,5 @@ BEGIN
 	SET @DTA_REGISTRO = DATEADD(dd, 1, @DTA_REGISTRO)
 END 
 
-
+-- select * from #DW_DIM_TEMPO
 -- FONTE: ADAPTADO DE https://www.mssqltips.com/sqlservertip/5553/create-an-extended-date-dimension-for-a-sql-server-data-warehouse/
